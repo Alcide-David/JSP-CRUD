@@ -1,0 +1,29 @@
+.search-container {
+    display: flex;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.chiffre{
+	
+}
+
+button:hover {
+    background-color: rgb(44, 44, 44);
+}

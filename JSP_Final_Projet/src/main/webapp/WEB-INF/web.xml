@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>Add_MateriauxDB</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Add_MateriauxDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add_MateriauxDB</servlet-name>
+    <url-pattern>/Add_MateriauxDB</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Rechercher_Materiel</servlet-name>
+    <jsp-file>/WEB-INF/Rechercher_Materiel.jsp</jsp-file> 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rechercher_Materiel</servlet-name>
+    <url-pattern>/Rechercher_Materiel</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>Principal_Utilisateur</servlet-name>
+    <jsp-file>/WEB-INF/Principal_Utilisateur.jsp</jsp-file> 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Principal_Utilisateur</servlet-name>
+    <url-pattern>/Principal_Utilisateur</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Add_Materiel_Form</servlet-name>
+    <jsp-file>/WEB-INF/Add_Materiel_Form.jsp</jsp-file> 
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add_Materiel_Form</servlet-name>
+    <url-pattern>/Add_Materiel_Form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>modifie_id</servlet-name>
+    <jsp-file>/WEB-INF/modifie_id.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modifie_id</servlet-name>
+    <url-pattern>/modifie_id</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Gestion_Utilisateur</servlet-name>
+    <jsp-file>/WEB-INF/Utilisateur/Gestion_Utilisateur.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Gestion_Utilisateur</servlet-name>
+    <url-pattern>/Gestion_Utilisateur</url-pattern>
+  </servlet-mapping>
+ 
+  
+  <servlet>
+    <servlet-name>List_Materiel_Form</servlet-name>
+    <jsp-file>/WEB-INF/List_Materiel_Form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List_Materiel_Form</servlet-name>
+    <url-pattern>/List_Materiel_Form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Affichage_Materiel_Form</servlet-name>
+    <jsp-file>/WEB-INF/Affichage_Materiel_Form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Affichage_Materiel_Form</servlet-name>
+    <url-pattern>/Affichage_Materiel_Form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>index</servlet-name>
+    <jsp-file>/WEB-INF/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+
+  <servlet>
+    <servlet-name>Edit_Materiel_Form</servlet-name>
+    <jsp-file>/WEB-INF/Edit_Materiel_Form.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit_Materiel_Form</servlet-name>
+    <url-pattern>/Edit_Materiel_Form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Mat_Insert_Servlet</display-name>
+    <servlet-name>Mat_Insert_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Mat_Insert_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mat_Insert_Servlet</servlet-name>
+    <url-pattern>/Mat_Insert_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Mat_List_Servlet</display-name>
+    <servlet-name>Mat_List_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Mat_List_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mat_List_Servlet</servlet-name>
+    <url-pattern>/Mat_List_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Mat_Edit_Servlet</display-name>
+    <servlet-name>Mat_Edit_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Mat_Edit_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mat_Edit_Servlet</servlet-name>
+    <url-pattern>/Mat_Edit_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Mat_Delete_Servlet</display-name>
+    <servlet-name>Mat_Delete_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Mat_Delete_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mat_Delete_Servlet</servlet-name>
+    <url-pattern>/Mat_Delete_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Mat_Update_Servlet</display-name>
+    <servlet-name>Mat_Update_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Mat_Update_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mat_Update_Servlet</servlet-name>
+    <url-pattern>/Mat_Update_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Utilisateur</display-name>
+    <servlet-name>Utilisateur</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Utilisateur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Utilisateur</servlet-name>
+    <url-pattern>/Utilisateur</url-pattern>
+  </servlet-mapping>
+  
+
+  
+  <servlet>
+    <description></description>
+    <display-name>Utilisateur_Control</display-name>
+    <servlet-name>Utilisateur_Control</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Utilisateur_Control</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Utilisateur_Control</servlet-name>
+    <url-pattern>/Utilisateur_Control</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>User_Insert_Servlet</display-name>
+    <servlet-name>User_Insert_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Utilisateur.User_Insert_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>User_Insert_Servlet</servlet-name>
+    <url-pattern>/User_Insert_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>User_Delete_Servlet</display-name>
+    <servlet-name>User_Delete_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Utilisateur.User_Delete_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>User_Delete_Servlet</servlet-name>
+    <url-pattern>/User_Delete_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Principal</servlet-name>
+    <jsp-file>/WEB-INF/Principal.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Principal</servlet-name>
+    <url-pattern>/Principal</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Validation_Login_Servlet</display-name>
+    <servlet-name>Validation_Login_Servlet</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Validation_Login_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Validation_Login_Servlet</servlet-name>
+    <url-pattern>/Validation_Login_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Connexion_Application</display-name>
+    <servlet-name>Connexion_Application</servlet-name>
+    <servlet-class>com.JSP_Final_Projet.web.Connexion_Application</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connexion_Application</servlet-name>
+    <url-pattern>/Connexion_Application</url-pattern>
+  </servlet-mapping>
+
+</web-app>
